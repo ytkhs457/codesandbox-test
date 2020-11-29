@@ -1,3 +1,85 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  margin-right: 4px;
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  margin-right: 4px;
+}
+
+button:hover {
+  background-color: #dddddd;
+  color: #fff;
+  cursor: pointer;
+}
+
+li {
+  margin-right: 8px;
+}
+
+.input-area {
+  background-color: black;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.incomplete-area {
+  background-color: #5bc266;
+  width: 400px;
+  min-height: 200px;
+  padding: 4px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.complete-area {
+  background-color: #42a5f5;
+  width: 400px;
+  min-height: 200px;
+  padding: 4px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+  color: #555;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+ul,
+ol {
+  padding: 0;
+  position: relative;
+}
+
+ul li,
+ol li {
+  color: #2d8fdd;
+  border-left: solid 6px #2d8fdd; /*左側の線*/
+  background: #f1f8ff; /*背景色*/
+  margin-bottom: 3px; /*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none !important; /*ポチ消す*/
+}
